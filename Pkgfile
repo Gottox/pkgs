@@ -11,8 +11,8 @@ vars:
   cni_sha512: 87e186b3cd64f66280f5b2293dcdd1fc22cb8f51a248124fb622adc48a893348419ba4c29c4769dede4d9e60f2e9fea5d4198f10badb4ecd20a1551e0b344e10
 
   # renovate: datasource=github-tags depName=containerd/containerd
-  containerd_version: v1.6.21
-  containerd_ref: 3dce8eb055cbb6872793272b4f20ed16117344f8
+  containerd_version: v1.7.2
+  containerd_ref: 0cae528dd6cb557f7201036e9f43420650207b58
   containerd_sha256: 9452e95455d03a00d78ae0587595d0c18555bae7912068269efa25a724efe713
   containerd_sha512: a94ed8b8b9e153c9dc370228b659fcba1b03b3c47c8b5fcb001bb1b4b158ea048159f5d8d8c5294e7da3444edd76fbd903d7b7faa84e3382807a583d757325e1
 
@@ -63,7 +63,7 @@ vars:
   iptables_sha512: e367bf286135e39b7401e852de25c1ed06d44befdffd92ed1566eb2ae9704b48ac9196cb971f43c6c83c6ad4d910443d32064bcdf618cfcef6bcab113e31ff70
 
   # renovate: datasource=git-refs versioning=git depName=https://github.com/ipxe/ipxe.git
-  ipxe_ref: e17568ad0642490143d0c6b154c874b9b9e285bf
+  ipxe_ref: c1834f323f4f6b9b46cd5895b1457a117381363f
   ipxe_sha256: d0c6b4e8b376e8e2a4ccd49decdce2b9f9cba4567a6b64ff314bf6104f9b8b41
   ipxe_sha512: af42980f09ffa5ed5dd71b1071b576b934da72e9b980a7d85c14ab12b99e0635b9edcac3af048e7af7079c70009b821b270dd390a652e1c5c3688bcf9c6c02b2
 
@@ -173,7 +173,7 @@ vars:
   arm_trusted_firmware_sha512: 958cf8f9e258638e59d0fbd8b053fce7d8a9ea2fc922686c9d20ea16f79f55219ac18a12ab240c528ee98e49c2e0eef4c963fdb255cc14b92437a5b3cffc8640
 
   # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ depName=u-boot/u-boot
-  uboot_version: 2023.01
+  uboot_version: 2023.07.02
   uboot_sha256: 69423bad380f89a0916636e89e6dcbd2e4512d584308d922d1039d1e4331950f
   uboot_sha512: 417a28267eb7875820d08fafc7316f164663609378637539e71648b0b9b7d28796b6c381717f31b0ab6472805fefd32628ef7d1b2e7b9f3c51c8ad122993f679
 
